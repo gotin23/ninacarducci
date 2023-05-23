@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <!-- ajout de l attribut lang -->
 <html lang="fr">
-
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Nina Carducci photographe professionnel à paris">
 	<meta property="og:title" content="Nina Carducci">
 	<meta property="og:description" content="Nina Carducci photographe professionnel à paris">
-	<!-- <meta property="og:image" content="./ "> -->
 	<meta property="og:url" content="https://ninacarducci.github.io/">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -17,6 +15,7 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
+	<!-- utilisation du fichié minifié -->
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<!-- <script src="./assets/bootstrap/bootstrap.bundle.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -38,11 +37,9 @@
 			"addressCountry": "FR"
 		  }
 		}
-		</script>
-	
+		</script>	
 	<title>Nina Carducci</title>
 </head>
-
 <body>
 	<div class="top-header">
 		<!-- remplacer le h3 par un h1 -->
@@ -61,7 +58,7 @@
 	</div>
 	<!-- remplacer div header par balise <header> -->
 	<header id="header">
-		<!-- remplacer la div du dessous par une section carouselExampleIndicators -->
+		<!-- remplacement de la la div du dessous par une section carouselExampleIndicators -->
 		<section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -102,18 +99,18 @@
 	<!-- remplacer div about par section about -->
 	<main>
 		<section id="about" >
+			<!-- meta -->
 			<div class="picture left" itemscope itemtype="https://schema.org/NewsArticle" >
 				<!-- ajout texte alternatif -->
 				<div itemprop="headline">A propos</div>
-      <meta itemprop="image" content="./assets/images/nina.webp" />
-				
+      <meta itemprop="image" content="./assets/images/nina.webp" />	
 				<img itemprop="image" src="./assets/images/nina.webp" alt="Portrait de Nina Carducci">
 			</div>
 			<!-- article about me -->
 			<article id="about-me">
 				<!-- h2 a la place de h3 -->
-				<h3 class="about-me__title">A propos de moi</h3>
-				<!-- remplacer p h4  -->
+				<h2 class="about-me__title">A propos de moi</h2>
+				
 				<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 					prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
 					immortels, voilà ce qui me fait vibrer.</h6>
@@ -128,7 +125,7 @@
 		<!--remplacer div gallery par  section gallery -->
 		<section id="gallery">
 			<!-- h2 a la place de h3 -->
-			<h3 class="title">Portfolio</h3>
+			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<!-- compression des images et ajout du texte alternatif -->
@@ -140,7 +137,7 @@
 						alt="portrait d'un homme en costume" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unspla.webp"
-						alt="deux femme souriantes" />
+						alt="deux femmes souriantes" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unspla.webp"
 						alt="perssones se tennant la main" />
@@ -149,7 +146,7 @@
 						alt="portrait d'un homme avec les yeux fermés" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
-						alt="photo des marier" />
+						alt="photo des mariers" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8.webp"
 						alt="portrait d'une femme avec des lunettes" />
@@ -165,20 +162,20 @@
 			<section class="quote">
 				<figure>
 					<blockquote>
-						<!-- retirer le h1 -->
-						<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
+						<!-- retirer le h1 pour h3 -->
+						<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
 							fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 							n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la
-							vérité.</h1>
+							vérité.</h3>
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
 			</section>
 		</section>
-		<!-- section service -->
+		<!-- section service a la place de div service -->
 		<section id="services">
 			<!-- h2 a la place de h3 -->
-			<h3 class="title">Mes services</h3>
+			<h2 class="title">Mes services</h2>
 			<div class="container">
 				<div class="service">
 					<!-- remplacer div par article -->
@@ -235,7 +232,7 @@
 			</figure>
 		</section>
 	</main>
-	<!-- footer contact -->
+	<!-- footer contacta la place de div contact -->
 	<footer id="contact">
 		<div class="container">
 			<div class="form-container">
